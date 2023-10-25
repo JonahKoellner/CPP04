@@ -3,17 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jonahkollner <jonahkollner@student.42.f    +#+  +:+       +#+         #
+#    By: jkollner <jkollner@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/13 13:05:24 by jkollner          #+#    #+#              #
-#    Updated: 2023/10/24 13:36:53 by jonahkollne      ###   ########.fr        #
+#    Updated: 2023/10/25 13:51:04 by jkollner         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 name = Animals
 cc = c++
 cflags = -Wall -Werror -Wextra -std=c++98
-src = main.cpp Animal.cpp Cat.cpp Dog.cpp
+src = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
 obj = ${src:.cpp=.o}
 
 all: ${name}
