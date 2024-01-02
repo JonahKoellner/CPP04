@@ -6,7 +6,7 @@
 /*   By: jkollner <jkollner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 13:35:21 by jonahkollne       #+#    #+#             */
-/*   Updated: 2023/10/25 14:11:05 by jkollner         ###   ########.fr       */
+/*   Updated: 2024/01/02 16:40:42 by jkollner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 #include "Animal.hpp"
 
 class Dog : public Animal {
+	private:
+		Brain *_brain;
 	public:
 		Dog();
 		void makeSound() const;

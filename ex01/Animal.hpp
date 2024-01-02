@@ -6,7 +6,7 @@
 /*   By: jkollner <jkollner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 12:33:13 by jonahkollne       #+#    #+#             */
-/*   Updated: 2023/10/25 14:13:43 by jkollner         ###   ########.fr       */
+/*   Updated: 2024/01/02 16:40:16 by jkollner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 class Animal {
 	//private:
 	protected:
-		Brain *_brain;
+		//Brain *_brain;
 		std::string _type;
 	public:
 		Animal();
